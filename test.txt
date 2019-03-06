@@ -1,0 +1,8 @@
+$ ssh-keygen-t rsa-C "your_email@youremail.com" ---生产密匙
+$ ssh -T git@github.com --- 检测绑定
+$ git config --global user.name ""
+$ git config --global user.email "" 
+git clone https:....
+git add test.txt  ---添加
+git commit -m "cc"   --上传
+git push origin master  ---push
